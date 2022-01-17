@@ -1,0 +1,298 @@
+/*==================== GOOGLE FONTS ====================*/
+/* questrial-regular - latin */
+@font-face {
+    font-family: 'Questrial';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(''),
+        url('../fonts/questrial-v13-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/questrial-v13-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*========== Icons ==========*/
+@font-face {
+    font-family: 'unicons';
+    src: url('../fonts/icons/unicons.eot?jef2ss');
+    src: url('../fonts/icons/unicons.eot?jef2ss#iefix') format('embedded-opentype'),
+        url('../fonts/icons/unicons.ttf?jef2ss') format('truetype'),
+        url('../fonts/icons/unicons.woff?jef2ss') format('woff'),
+        url('../fonts/icons/unicons.svg?jef2ss#unicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="uil-"]:before,
+[class*=" uil-"]:before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'unicons' !important;
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -7%;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.uil-angle-right:before {
+    content: "\e91c";
+}
+
+.uil-apps:before {
+    content: "\e900";
+}
+
+.uil-arrow-down:before {
+    content: "\e901";
+}
+
+.uil-arrow-right:before {
+    content: "\e902";
+}
+
+.uil-arrow-up:before {
+    content: "\e903";
+}
+
+.uil-briefcase-alt:before {
+    content: "\e904";
+}
+
+.uil-calendar-alt:before {
+    content: "\e905";
+}
+
+.uil-css3-simple:before {
+    content: "\e906";
+}
+
+.uil-download:before {
+    content: "\e907";
+}
+
+.uil-envelope:before {
+    content: "\e908";
+}
+
+.uil-estate:before {
+    content: "\e909";
+}
+
+.uil-figma:before {
+    content: "\e90a";
+}
+
+.uil-file-alt:before {
+    content: "\e90b";
+}
+
+.uil-github-alt:before {
+    content: "\e90c";
+}
+
+.uil-gitlab:before {
+    content: "\e90d";
+}
+
+.uil-graduation-cap:before {
+    content: "\e90e";
+}
+
+.uil-html5:before {
+    content: "\e90f";
+}
+
+.uil-javascript:before {
+    content: "\e910";
+}
+
+.uil-linkedin-alt:before {
+    content: "\e911";
+}
+
+.uil-map-marker:before {
+    content: "\e912";
+}
+
+.uil-message:before {
+    content: "\e913";
+}
+
+.uil-moon:before {
+    content: "\e914";
+}
+
+.uil-mouse:before {
+    content: "\e915";
+}
+
+.uil-sass:before {
+    content: "\e916";
+}
+
+.uil-scenery:before {
+    content: "\e917";
+}
+
+.uil-sun:before {
+    content: "\e918";
+}
+
+.uil-tailwind:before {
+    content: "\e919";
+}
+
+.uil-times:before {
+    content: "\e91a";
+}
+
+.uil-user:before {
+    content: "\e91b";
+}
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+    --header-height: 3rem;
+
+    /*========== Colors ==========*/
+    --hue-color: 5;
+
+    /*========== HSL Colors ==========*/
+    --first-color: hsl(var(--hue-color), 41%, 51%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 8%, 29%);
+    --text-color-light: hsl(var(--hue-color), 8%, 40%);
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --dot-color: hsl(var(--hue-color), 100%, 94%);
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Questrial', sans-serif;
+
+    --big-font-size: 2.5rem;
+    --h1-font-size: 2.1875rem;
+    --h2-font-size: 2.0625rem;
+    --h3-font-size: 1.6875rem;
+    --normal-font-size: 1.063rem;
+    --small-font-size: .938rem;
+    --smaller-font-size: .813rem;
+
+    /*========== Font weight ==========*/
+    --font-semi-bold: 600;
+
+    /*========== Margins ==========*/
+    /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+    --mar-0-25: .25rem;
+    --mar-0-5: .5rem;
+    --mar-0-75: .75rem;
+    --mar-1: 1rem;
+    --mar-1-5: 1.5rem;
+    --mar-2: 2;
+    --mar-2-5: 2.5rem;
+    --mar-3: 3rem;
+
+    /*========== z index ==========*/
+    --z-fixed: 100;
+}
+
+/*==================== BASE ====================*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 0 var(--header-height) 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    background-color: var(--body-color);
+}
+
+body:not(.dark-theme) {
+    background-image: radial-gradient(var(--dot-color) 0.8px, transparent 0.8px),
+    radial-gradient(var(--dot-color) 0.8px, transparent 0.8px);
+    background-position: 0 0, 16px 16px;
+    background-size: 32px 32px;
+}
+
+h1, h2, h3, h4, dt {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*==================== LAYOUT ====================*/
+.container {
+    max-width: 768px;
+    margin-left: var(--mar-1-5);
+    margin-right: var(--mar-1-5);
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+/*==================== NAV ====================*/
+.header {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+}
+
+.nav {
+    max-width: 968px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo,
+.nav__toggle {
+    color: var(--title-color);
+}
+
+.nav__logo:hover,
+.nav__toggle:hover {
+    color: var(--first-color);
+}
+
+.nav__toggle {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
