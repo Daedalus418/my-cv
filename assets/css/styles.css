@@ -303,7 +303,7 @@ img {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
     border-radius: 1.5rem 1.5rem 0 0;
     left: 0;
-    bottom: 0;
+    bottom: -100%;
     width: 100%;
     padding: 2rem 1.5rem 4rem;
     transition: .3s;
@@ -341,4 +341,9 @@ img {
 
 .nav__close:hover {
     color: var(--first-color-alt);
+}
+
+/* Show menu */
+.show-menu {
+    bottom: 0;
 }
