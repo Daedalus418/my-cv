@@ -253,6 +253,18 @@ img {
     display: block;
 }
 
+/*==================== REUSABLE CSS CLASSES ====================*/
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    min-height: 100vh;
+    padding: 2rem 0 4rem;
+}
+
 /*==================== LAYOUT ====================*/
 .container {
     max-width: 768px;
@@ -360,3 +372,5 @@ img {
 .show-menu {
     bottom: 0;
 }
+
+/*==================== HOME ====================*/
