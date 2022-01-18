@@ -201,7 +201,7 @@
     --mar-0-75: .75rem;
     --mar-1: 1rem;
     --mar-1-5: 1.5rem;
-    --mar-2: 2;
+    --mar-2: 2rem;
     --mar-2-5: 2.5rem;
     --mar-3: 3rem;
 
@@ -397,6 +397,10 @@ img {
 }
 
 /*==================== HOME ====================*/
+.home__container {
+    gap: 1rem;
+}
+
 .home__social {
     display: flex;
     gap: 1rem;
