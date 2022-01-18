@@ -191,6 +191,7 @@
     --smaller-font-size: .813rem;
 
     /*========== Font weight ==========*/
+    --font-medium: 400;
     --font-semi-bold: 600;
 
     /*========== Margins ==========*/
@@ -263,6 +264,28 @@ img {
 .section {
     min-height: 100vh;
     padding: 2rem 0 4rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+}
+
+.button__icon {
+    font-size: 1.25rem;
+    margin-left: var(--mar-0-5);
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
 }
 
 /*==================== LAYOUT ====================*/
@@ -386,4 +409,50 @@ img {
 
 .home__social-icon:hover {
     color: var(--first-color-alt);
+}
+
+.home__blob {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    fill: var(--first-color);
+}
+
+.home__name {
+    font-size: var(--h1-font-size);
+}
+
+.home__profession {
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mar-0-75);
+}
+
+.home__button {
+    margin-top: var(--mar-2);
+}
+
+.home__scroll-button {
+    color: var(--first-color);
+    transition: .5s;
+}
+
+.home__scroll-button:hover {
+    transform: translateY(.25rem);
+}
+
+.home__scroll-mouse {
+    font-size: 2rem;
+}
+
+.home__scroll-text {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    margin-right: var(--mar-0-25);
+}
+
+.home__scroll-arrow {
+    font-size: 1.25rem;
 }
