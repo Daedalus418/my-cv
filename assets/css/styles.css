@@ -273,6 +273,21 @@ img {
     padding: 2rem 0 4rem;
 }
 
+.section__title,
+.section__subtitle {
+    text-align: center;
+}
+
+.section__title {
+    font-size: var(--h2-font-size);
+}
+
+.section__subtitle {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mar-3);
+}
+
 .button {
     display: inline-block;
     background-color: var(--first-color);
@@ -466,6 +481,11 @@ img {
 
 .home__scroll-arrow {
     font-size: 1.25rem;
+}
+
+/*==================== ABOUT ====================*/
+.about__text {
+    text-align: center;
 }
 
 /*========== SCROLL BAR ==========*/
