@@ -180,6 +180,7 @@
     --dot-color: hsl(var(--hue-color), 100%, 94%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --container-color: #fff;
 
     /*========== Font and typography ==========*/
     --body-font: 'Questrial', sans-serif;
@@ -486,6 +487,36 @@ img {
 /*==================== ABOUT ====================*/
 .about__text {
     text-align: center;
+}
+
+/*==================== SKILLS ====================*/
+.skills__container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills__content {
+    background-color: var(--container-color);
+    padding: 2.5rem 1.5rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+}
+
+.skills__content:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+    transition: .3s;
+}
+
+.skills__icon {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-bottom: var(--mar-1);
+}
+
+.skills__title {
+    text-align: center;
+    margin-bottom: var(--mar-1);
 }
 
 /*========== SCROLL BAR ==========*/
