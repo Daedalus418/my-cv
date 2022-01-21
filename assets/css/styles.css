@@ -519,6 +519,27 @@ img {
     margin-bottom: var(--mar-1);
 }
 
+/*==================== QUALIFICATION ====================*/
+.qualification__tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mar-2-5);
+}
+
+.qualification__button {
+    font-size: var(--h3-font-size);
+    cursor: pointer;
+}
+
+.qualification__button:hover {
+    color: var(--first-color);
+}
+
+.qualification__icon{
+    font-size: 1.8rem;
+    margin-right: var(--mar-0-25);
+}
+
 /*========== SCROLL BAR ==========*/
 /* Works on Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
