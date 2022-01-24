@@ -540,6 +540,53 @@ img {
     margin-right: var(--mar-0-25);
 }
 
+.qualification__data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    gap: 1.5rem;
+}
+
+.qualification__calendar {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+.qualification__point {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+}
+
+.qualification__line {
+    display: block;
+    height: 100%;
+    width: 1px;
+    background-color: var(--first-color);
+    transform: translate(6px, -7px);
+}
+
+.qualification__text {
+    line-height: 1.4em;
+    padding-bottom: 20px;
+}
+
+.qualification__title {
+    font-size: var(--normal-font-size);
+}
+
+.qualification__subtitle {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mar-1);
+}
+
+.qualification__summary {
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mar-1);
+}
+
 /*========== SCROLL BAR ==========*/
 /* Works on Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
