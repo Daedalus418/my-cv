@@ -12,3 +12,15 @@ navToggle.addEventListener('click', () => {
 navClose.addEventListener('click', () => {
     navMenu.classList.remove('show-menu')
 })
+
+/*==================== QUALIFICATION TABS ====================*/
+const tabs = document.querySelectorAll('.qualification__button')
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        tabs.forEach(tab => {
+            tab.classList.remove('js-qualification__active')
+        })
+        tab.classList.add('js-qualification__active')
+    })
+})

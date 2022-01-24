@@ -587,6 +587,13 @@ img {
     margin-bottom: var(--mar-1);
 }
 
+.qualification__button.js-qualification__active {
+    color: var(--first-color);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+}
+
 /*========== SCROLL BAR ==========*/
 /* Works on Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
