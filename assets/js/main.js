@@ -20,7 +20,7 @@ const qualificationButtons = document.querySelectorAll('.qualification__button')
 qualificationButtons.forEach(qualificationButton => {
 
     qualificationButton.addEventListener('click', () => {
-        id = document.querySelector(qualificationButton.dataset.id)
+        id = document.querySelector(qualificationButton.getAttribute('aria-controls'))
 
         qualificationButtons.forEach(qualificationButton => {
             qualificationButton.classList.remove('js-qualification__active')
@@ -29,7 +29,9 @@ qualificationButtons.forEach(qualificationButton => {
 
         qualificationContents.forEach(qualificationContent => {
             qualificationContent.classList.remove('js-qualification__active')
+            qualificationContent.setAttribute('aria-hidden', 'true')
         })
         id.classList.add('js-qualification__active')
+        id.removeAttribute('aria-hidden')
     })
 })
