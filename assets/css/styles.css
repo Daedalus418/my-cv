@@ -587,6 +587,14 @@ img {
     margin-bottom: var(--mar-1);
 }
 
+.qualification__content {
+    display: none;
+}
+
+.qualification__content.js-qualification__active {
+    display: block;
+}
+
 .qualification__button.js-qualification__active {
     color: var(--first-color);
     text-decoration: underline;
