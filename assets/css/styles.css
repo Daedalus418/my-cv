@@ -683,6 +683,30 @@ img {
     margin-right: 0.5rem;
 }
 
+.portfolio__description {
+    display: none;
+}
+
+.portfolio__content.portfolio__active .portfolio__header {
+    background-color: var(--first-color);
+    padding-left: 1rem;
+    border-radius: .5rem;
+}
+
+.portfolio__content.portfolio__active .portfolio__title {
+    color: #fff;
+}
+
+.portfolio__content.portfolio__active .portfolio__chevron {
+    color: #fff;
+    transform: rotate(90deg);
+}
+
+.portfolio__content.portfolio__active .portfolio__description {
+    display: block;
+    margin-bottom: var(--mar-0-75);
+}
+
 /*========== SCROLL BAR ==========*/
 /* Works on Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
