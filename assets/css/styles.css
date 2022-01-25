@@ -602,6 +602,62 @@ img {
     text-underline-position: under;
 }
 
+/*==================== PORTFOLIO ====================*/
+.portfolio__container input[type=radio] {
+    display: none;
+}
+
+.portfolio__image {
+    position: relative;
+    max-width: 471px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio__image-lg {
+    width: auto;
+}
+
+.portfolio__image-tb {
+    position: absolute;
+    width: 25%;
+    bottom: 0;
+    right: 1.1rem;
+    z-index: 1;
+}
+
+.portfolio__image-mb {
+    position: absolute;
+    width: 15%;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+
+
+.image_1,
+.image_2,
+.image_3,
+.image_4,
+.image_5 {
+    display: none;
+}
+
+#image1:checked~.image_1,
+#image2:checked~.image_2,
+#image3:checked~.image_3,
+#image4:checked~.image_4,
+#image5:checked~.image_5 {
+    display: block;
+}
+
+.portfolio__image-lg,
+.portfolio__image-tb,
+.portfolio__image-mb {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+}
+
 /*========== SCROLL BAR ==========*/
 /* Works on Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
