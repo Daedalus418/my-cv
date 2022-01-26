@@ -707,6 +707,30 @@ img {
     margin-bottom: var(--mar-0-75);
 }
 
+/*==================== CONTACT ME ====================*/
+.contact__information {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: .20rem .75rem;
+    margin-bottom: var(--mar-2);
+}
+
+.contact__icon {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.contact__title {
+    font-size: var(--h3-font-size);
+}
+
+.contact__subtitle {
+    color: var(--text-color-light);
+}
+
 /*========== SCROLL BAR ==========*/
 /* Works on Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
