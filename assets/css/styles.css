@@ -262,6 +262,13 @@ img {
     display: block;
 }
 
+button {
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .center {
     display: flex;
@@ -290,15 +297,21 @@ img {
 }
 
 .button {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     background-color: var(--first-color);
     color: #fff;
     padding: 1rem;
     border-radius: .5rem;
 }
 
-.button:hover {
+.button:hover,
+.button:active {
     background-color: var(--first-color-alt);
+}
+
+.button:focus {
+    outline-color: var(--title-color);
 }
 
 .button__icon {
