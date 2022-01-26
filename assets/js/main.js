@@ -35,3 +35,15 @@ qualificationButtons.forEach(qualificationButton => {
         activeContent.removeAttribute('aria-hidden')
     })
 })
+
+/*==================== PORTFOLIO: SHOW/HIDE TEXT ====================*/
+const portfolioInformation = document.querySelector('.portfolio__information'),
+    portfolioContents = Array.from(portfolioInformation.querySelectorAll('.portfolio__content'))
+
+portfolioContents.forEach(portfolioContent => {
+    portfolioContent.addEventListener('click', () => {
+
+        portfolioContents.forEach(elem => elem.classList.remove('portfolio__active'))
+        portfolioContent.classList.add('portfolio__active')
+    })
+})
