@@ -897,4 +897,8 @@ button {
     .nav__list {
         column-gap: .5rem;
     }
+
+    .home__blob {
+        width: 180px;
+    }
 }
