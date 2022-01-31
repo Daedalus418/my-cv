@@ -880,3 +880,13 @@ button {
 .show-scrollup {
     bottom: 4rem;
 }
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+
+@media screen and (max-width: 350px) {
+    .container {
+        margin-left: var(--mar-1);
+        margin-right: var(--mar-1);
+    }
+}
