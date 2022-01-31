@@ -210,6 +210,7 @@
 
     /*========== z index ==========*/
     --z-fixed: 100;
+    --z-scrollup: 10;
 
     /*========== SCROLL BAR ==========*/
     /* Works on Firefox*/
@@ -851,3 +852,23 @@ button {
     background-color: var(--text-color-light);
 }
 
+/*========== SCROLL UP ==========*/
+.scrollup {
+    position: fixed;
+    z-index: var(--z-scrollup);
+    bottom: 4rem;
+    right: 1rem;
+    background-color: var(--first-color);
+    border-radius: .4rem;
+    padding: .3rem;
+    opacity: .8;
+}
+
+.scrollup:hover {
+    background-color: var(--first-color-alt);
+}
+
+.scrollup__icon {
+    font-size: 1.5rem;
+    color: #fff;
+}
