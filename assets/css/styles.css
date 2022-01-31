@@ -507,7 +507,7 @@ button {
 /*==================== ABOUT ====================*/
 .about__text {
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.2em;
 }
 
 /*==================== SKILLS ====================*/
