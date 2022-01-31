@@ -889,4 +889,12 @@ button {
         margin-left: var(--mar-1);
         margin-right: var(--mar-1);
     }
+
+    .nav__menu {
+        padding-left: .25rem;
+        padding-right: .25rem;
+    }
+    .nav__list {
+        column-gap: .5rem;
+    }
 }
