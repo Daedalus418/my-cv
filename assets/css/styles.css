@@ -930,4 +930,8 @@ button {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
+
+    .portfolio__content.portfolio__active .portfolio__header {
+        padding-right: 1rem;
+    }
 }
