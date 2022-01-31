@@ -856,12 +856,13 @@ button {
 .scrollup {
     position: fixed;
     z-index: var(--z-scrollup);
-    bottom: 4rem;
+    bottom: -50%;
     right: 1rem;
     background-color: var(--first-color);
     border-radius: .4rem;
     padding: .3rem;
     opacity: .8;
+    transition: .4s;
 }
 
 .scrollup:hover {
@@ -871,4 +872,8 @@ button {
 .scrollup__icon {
     font-size: 1.5rem;
     color: #fff;
+}
+
+.show-scrollup {
+    bottom: 4rem;
 }

@@ -71,3 +71,15 @@ function linkClick() {
 
 // When a nav__link is clicked, the show-menu class is removed from the nav__menu 
 navLinks.forEach(navLink => navLink.addEventListener('click', linkClick))
+
+/*==================== SHOW SCROLL UP ====================*/
+function scrollUp() {
+    const scrollUp = document.getElementById('js-scroll-up')
+    if(this.pageYOffset >= 560) {
+        scrollUp.classList.add('show-scrollup')
+    } else {
+        scrollUp.classList.remove('show-scrollup')
+    }
+}
+
+window.addEventListener('scroll', scrollUp)
