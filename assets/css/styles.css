@@ -901,4 +901,9 @@ button {
     .home__blob {
         width: 180px;
     }
+
+    .skills__container {
+        grid-template-columns: max-content;
+        justify-content: center;
+    }
 }
