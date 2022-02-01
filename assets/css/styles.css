@@ -935,3 +935,20 @@ button {
         padding-right: 1rem;
     }
 }
+
+/* For medium devices */
+@media screen and (min-width: 568px) {
+    .home__content {
+        grid-template-columns: max-content 1fr 1fr;
+        align-items: center;
+    }
+    .home__social {
+        flex-direction: column;
+    }
+    .home__img {
+        order: 1;
+    }
+    .home__data {
+        
+    }
+}
