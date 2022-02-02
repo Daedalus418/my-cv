@@ -1008,4 +1008,8 @@ button {
     .change-theme {
         margin: 0;
     }
+
+    .section {
+        padding: 6rem 0 2rem;
+    }
 }
