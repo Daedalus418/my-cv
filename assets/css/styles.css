@@ -948,7 +948,27 @@ button {
     .home__img {
         order: 1;
     }
-    .home__data {
-        
+
+    .qualification__contents {
+        display: grid;
+        justify-content: center;
+    }
+    .qualification__content {
+        padding-bottom: 40px;
+    }
+    .qualification__calendar {
+        text-align: end;
+    }
+
+    .contact__container,
+    .footer__container {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .footer__socials {
+        grid-column: 1 / 2;
+    }
+    .footer__copy {
+        grid-column: 1 / 3;
     }
 }
