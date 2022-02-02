@@ -1030,4 +1030,14 @@ button {
     .about__text {
         text-align: left;
     }
+
+    .skills__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .skills__content {
+        padding: 4rem 2.5rem;
+    }
+    .skills__icon {
+        font-size: 2rem;
+    }
 }
