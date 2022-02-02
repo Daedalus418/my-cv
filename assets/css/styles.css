@@ -1026,4 +1026,8 @@ button {
     .home__scroll-button {
         margin-left: 3rem;
     }
+
+    .about__text {
+        text-align: left;
+    }
 }
