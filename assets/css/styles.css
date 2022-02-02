@@ -1012,4 +1012,18 @@ button {
     .section {
         padding: 6rem 0 2rem;
     }
+
+    .home__container {
+        row-gap: 5rem;
+    }
+    .home__content {
+        column-gap: 2rem;
+        padding-top: 5.5rem;
+    }
+    .home__blob {
+        width: 270px;
+    }
+    .home__scroll-button {
+        margin-left: 3rem;
+    }
 }
