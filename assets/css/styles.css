@@ -1066,5 +1066,22 @@ button {
         right: 3.1rem;
     }
 
-    
+    .footer__bg {
+        padding: 1.5rem 0 1rem;
+    }
+    .footer__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer__links {
+        display: flex;
+        gap: 2rem;
+    }
+    .footer__socials {
+        grid-column: 3 / 4;
+        justify-self: end;
+        margin-right: var(--mar-1-5);
+    }
+    .footer__copy {
+        grid-column: 1 / 4;
+    }
 }
