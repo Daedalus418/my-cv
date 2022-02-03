@@ -1047,4 +1047,24 @@ button {
     .qualification__button {
         margin: 0 var(--mar-1);
     }
+
+    .portfolio__container {
+        grid-template-columns: 50% 1fr;
+    }
+    .portolio__images {
+        align-self: center;
+        margin-bottom: 0;
+    }
+    .portfolio__image {
+        height: 18.3rem;
+    }
+    .portfolio__image-lg {
+        position: absolute;
+        bottom: 0;
+    }
+    .portfolio__image-tb {
+        right: 3.1rem;
+    }
+
+    
 }
