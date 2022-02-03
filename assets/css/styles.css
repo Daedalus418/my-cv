@@ -1012,6 +1012,9 @@ button {
     .section {
         padding: 6rem 0 2rem;
     }
+    .section__subtitle {
+        margin-bottom: 4rem;
+    }
 
     .home__container {
         row-gap: 5rem;
