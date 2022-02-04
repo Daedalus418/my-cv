@@ -1106,4 +1106,16 @@ button {
     .skills__container {
         grid-template-columns: repeat(3, 238px);
     }
+
+    .qualification__data:nth-child(even) .qualification__calendar {
+        order: 2;
+        text-align: left;
+    }
+    .qualification__data:nth-child(even) .qualification__marker {
+        order: 1;
+    }
+    .qualification__data:nth-child(even) .qualification__text {
+        order: 0;
+        text-align: right;
+    }
 }
