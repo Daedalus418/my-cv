@@ -1118,4 +1118,11 @@ button {
         order: 0;
         text-align: right;
     }
+
+    .contact__form {
+        width: 460px;
+    }
+    .contact__inputs {
+        grid-template-columns: 1fr 1fr;
+    }
 }
