@@ -483,6 +483,7 @@ button {
 
 .home__name {
     font-size: var(--h1-font-size);
+    margin-bottom: var(--mar-0-5);
 }
 
 .home__profession {
@@ -1041,6 +1042,12 @@ button {
         column-gap: 2rem;
         padding-top: 5.5rem;
     }
+    .home__social {
+        gap: 1.5rem;
+    }
+    .home__name {
+        margin-bottom: var(--mar-1);
+    }
     .home__blob {
         width: 270px;
     }
@@ -1050,6 +1057,7 @@ button {
 
     .about__text {
         text-align: left;
+        line-height: 1.4em;
     }
 
     .skills__container {
