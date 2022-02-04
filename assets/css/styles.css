@@ -298,6 +298,7 @@ button {
 .section__title,
 .section__subtitle {
     text-align: center;
+    line-height: 1.2em;
 }
 
 .section__title {
@@ -609,10 +610,6 @@ button {
     padding-bottom: 20px;
 }
 
-.qualification__title {
-    font-size: var(--normal-font-size);
-}
-
 .qualification__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
@@ -620,7 +617,6 @@ button {
 }
 
 .qualification__summary {
-    font-size: var(--small-font-size);
     margin-bottom: var(--mar-1);
 }
 
@@ -702,6 +698,7 @@ button {
 .portfolio__title {
     font-size: var(--h3-font-size);
     cursor: pointer;
+    line-height: 1.2em;
 }
 
 .portfolio__chevron {
@@ -713,7 +710,7 @@ button {
 .portfolio__tags {
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
-    margin-bottom: var(--mar-0-5);
+    margin-bottom: var(--mar-1);
     line-height: 1.2em;
 }
 
@@ -724,6 +721,10 @@ button {
 .portfolio__description {
     display: none;
     line-height: 1.2em;
+}
+
+.portfolio__content.portfolio__active {
+    margin-bottom: var(--mar-2);
 }
 
 .portfolio__content.portfolio__active .portfolio__header {
@@ -743,7 +744,6 @@ button {
 
 .portfolio__content.portfolio__active .portfolio__description {
     display: block;
-    margin-bottom: var(--mar-0-75);
 }
 
 /*==================== CONTACT ME ====================*/
@@ -998,6 +998,14 @@ button {
     main,
     .footer__container {
         padding: 0 1rem;
+    }
+    .section__title,
+    .section__subtitle,
+    .about__text,
+    .qualification__text,
+    .portfolio__content,
+    .portfolio__title {
+        line-height: 1.4em;
     }
     .container {
         margin-left: auto;
