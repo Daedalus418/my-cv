@@ -1093,3 +1093,13 @@ button {
         grid-column: 1 / 4;
     }
 }
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+    .home__blob {
+        width: 320px;
+    }
+    .home__social {
+        transform: translateX(-6rem);
+    }
+}
