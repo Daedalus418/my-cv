@@ -1096,6 +1096,10 @@ button {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1040px;
+    }
+    
     .home__blob {
         width: 320px;
     }
