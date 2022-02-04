@@ -218,6 +218,19 @@
     scrollbar-color: var(--scroll-thumb-color) var(--scroll-bar-color);
 }
 
+/* Font size for large devices */
+@media screen and (min-width: 968px) {
+    :root {
+        --big-font-size: 3.5rem; /* 56px */
+        --h1-font-size: 2.9375rem; /* 47px */
+        --h2-font-size: 2.3125rem; /* 37px */
+        --h3-font-size: 1.8125rem; /* 29px */
+        --normal-font-size: 1.125rem; /* 18px */
+        --small-font-size: 1rem; /* 16px */
+        --smaller-font-size: .875rem; /* 14px */
+    }
+}
+
 /*==================== BASE ====================*/
 * {
     box-sizing: border-box;
