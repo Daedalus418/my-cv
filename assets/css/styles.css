@@ -831,10 +831,6 @@ button {
     row-gap: 1.5rem;
 }
 
-.footer__link:hover {
-    color: var(--first-color-lighter);
-}
-
 .footer__socials {
     display: flex;
     gap: var(--mar-1-5);
@@ -842,6 +838,11 @@ button {
 
 .footer__social {
     font-size: 1.25rem;
+}
+
+.footer__link:hover,
+.footer__social:hover {
+    color: var(--first-color-lighter);
 }
 
 .footer__copy {
