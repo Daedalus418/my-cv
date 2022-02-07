@@ -540,6 +540,10 @@ button {
     background-color: var(--body-color);
 }
 
+.active-link {
+    color: var(--first-color);
+}
+
 /*==================== HOME ====================*/
 .home__container {
     gap: 1rem;

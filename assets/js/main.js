@@ -13,6 +13,26 @@ navClose.addEventListener('click', () => {
     navMenu.classList.remove('show-menu')
 })
 
+/*==================== SECTIONS ACTIVE LINK WHEN SCROLLING ====================*/
+function scrollActive() {
+    const sections = document.querySelectorAll('section[id]')
+    const scrollY = window.pageYOffset
+
+    sections.forEach(section => {
+        const sectionHeight = section.offsetHeight,
+            sectionParentTop = section.offsetTop - 50,
+            sectionId = section.getAttribute('id')
+
+        if (scrollY > sectionParentTop && scrollY <= sectionParentTop + sectionHeight) {
+            document.querySelector('a[href*=' + sectionId + ']').classList.add('active-link')
+        } else {
+            document.querySelector('a[href*=' + sectionId + ']').classList.remove('active-link')
+        }
+    })
+}
+
+window.addEventListener('scroll', scrollActive)
+
 /*==================== QUALIFICATION TABS ====================*/
 const qualificationButtons = document.querySelectorAll('.qualification__button'),
     qualificationContents = document.querySelectorAll('.qualification__content')
