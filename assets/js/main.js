@@ -103,3 +103,12 @@ function scrollUp() {
 }
 
 window.addEventListener('scroll', scrollUp)
+
+/*==================== DARK LIGHT THEME ====================*/ 
+const buttonTheme = document.getElementById('js-theme-button')
+
+buttonTheme.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme')
+    buttonTheme.classList.toggle('uil-sun')
+    buttonTheme.classList.toggle('uil-moon')
+})
