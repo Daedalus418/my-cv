@@ -366,6 +366,13 @@ button {
     }
 }
 
+@keyframes textDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+
 .home__social-icon,
 .nav__item {
     animation: fadeIn 0.5s linear;
@@ -397,6 +404,14 @@ button {
 
 .nav__item:nth-child(6) {
     animation-delay: 2.50s;
+}
+
+.home__name {
+    animation: textDown 1s ease 0s 1 normal both;
+}
+
+.home__profession {
+    animation: textDown 1s 0.5s ease-in-out both;
 }
 
 /*==================== NAV ====================*/
