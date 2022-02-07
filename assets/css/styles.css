@@ -374,7 +374,8 @@ button {
 }
 
 .home__social-icon,
-.nav__item {
+.nav__item,
+.change-theme {
     animation: fadeIn 0.5s linear;
     animation-fill-mode: both;
 }
@@ -404,6 +405,10 @@ button {
 
 .nav__item:nth-child(6) {
     animation-delay: 2.50s;
+}
+
+.change-theme {
+    animation-delay: 2.75s;
 }
 
 .home__name {
