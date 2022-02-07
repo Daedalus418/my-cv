@@ -351,6 +351,38 @@ button {
     gap: 1.5rem;
 }
 
+/*==================== ANIMATION ====================*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.home__social-icon {
+    animation: fadeIn 0.5s linear;
+    animation-fill-mode: both;
+}
+
+.home__social-icon:nth-child(1) {
+    animation-delay: 1.25s;
+}
+
+.home__social-icon:nth-child(2) {
+    animation-delay: 1.50s;
+}
+
+.home__social-icon:nth-child(3) {
+    animation-delay: 1.75s;
+}
+
 /*==================== NAV ====================*/
 .header {
     width: 100%;
