@@ -105,10 +105,34 @@ function scrollUp() {
 window.addEventListener('scroll', scrollUp)
 
 /*==================== DARK LIGHT THEME ====================*/ 
-const buttonTheme = document.getElementById('js-theme-button')
+const buttonTheme = document.getElementById('js-theme-button'),
+    body = document.body
+
+// Functions to obtain the current theme and the current icon
+function getCurrentTheme() {
+    return body.classList.contains('dark-theme') ? 'dark' : 'light'
+}
+function getCurrentIcon() {
+    return buttonTheme.classList.contains('uil-moon') ? 'uil-moon' : 'uil-sun'
+}
 
 buttonTheme.addEventListener('click', () => {
-    document.body.classList.toggle('dark-theme')
+    // Add or remove the dark icon and the dark theme
+    body.classList.toggle('dark-theme')
     buttonTheme.classList.toggle('uil-sun')
     buttonTheme.classList.toggle('uil-moon')
+
+    // Save the current theme and the current icon in a Storage's key
+    localStorage.setItem('theme-selected', getCurrentTheme())
+    localStorage.setItem('icon-selected', getCurrentIcon())
 })
+
+// Get the current theme and the current icon from the Storage's keys
+const chosenTheme = localStorage.getItem('theme-selected'),
+    chosenIcon = localStorage.getItem('icon-selected')
+
+// Apply the last selected theme when the website is opened again
+if(chosenTheme) {
+    body.classList[chosenTheme === 'dark' ? 'add' : 'remove']('dark-theme')
+    buttonTheme.classList[chosenIcon === 'uil-sun' ? 'add' : 'remove']('uil-sun')
+}
