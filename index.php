@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--==================== CSS ====================-->
     <link rel="preload" as="font" href="assets/css/styles.css" onload="this.onload=null;this.rel='stylesheet'">
-    
+
     <title>CV</title>
 </head>
+
 <body class="scrollbar-nav">
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
@@ -79,7 +81,7 @@
                                 <i class="uil-github-alt"></i>
                             </a>
                         </div>
-                        
+
                         <div class="home__img">
                             <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
@@ -96,7 +98,7 @@
                                 </g>
                             </svg>
                         </div>
-                        
+
                         <div class="home__data">
                             <h1 class="home__name">Bonjour, <br> je suis Gaëlle</h1>
                             <h2 class="home__profession">Développeuse front-end</h2>
@@ -200,153 +202,153 @@
                     </div>
 
                     <div class="qualification__contents">
-                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                    <ul class="qualification__content js-qualification__active" id="education">
-                        <!--==================== QUALIFICATION 1 ====================-->
-                        <li class="qualification__data">
-                            <div class="qualification__calendar">
-                                <i class="uil-calendar-alt"></i>
-                                Sept 2003 - juin 2006
-                            </div>
-                            <div class="qualification__marker">
-                                <span class="qualification__point"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                            <div class="qualification__text">
-                                <h3 class="qualification__title">Technicienne de laboratoire</h3>
-                                <span class="qualification__subtitle">Institut d'Enseignement Supérieur Alexandre-André (Belgique)</span>
-                                <p class="qualification__summary"></p>
-                            </div>
-                        </li>
-                        <!--==================== QUALIFICATION 2 ====================-->
-                        <li class="qualification__data">
-                            <div class="qualification__calendar">
-                                <i class="uil-calendar-alt"></i>
-                                Sept 2016 - juin 2017
-                            </div>
-                            <div class="qualification__marker">
-                                <span class="qualification__point"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                            <div class="qualification__text">
-                                <h3 class="qualification__title">Développeuse web</h3>
-                                <span class="qualification__subtitle">Wild Code School</span>
-                                <p class="qualification__summary">
-                                    Réalisation de deux projets-clients dans le cadre de ma formation à la Wild Code School.
-                                    L'un en 6 semaines l'autre en 8 semaines. L'occasion d'appliquer mes connaissances pour
-                                    le compte d'acteurs locaux.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <ul class="qualification__content js-qualification__active" id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <li class="qualification__data">
+                                <div class="qualification__calendar">
+                                    <i class="uil-calendar-alt"></i>
+                                    Sept 2003 - juin 2006
+                                </div>
+                                <div class="qualification__marker">
+                                    <span class="qualification__point"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div class="qualification__text">
+                                    <h3 class="qualification__title">Technicienne de laboratoire</h3>
+                                    <span class="qualification__subtitle">Institut d'Enseignement Supérieur Alexandre-André (Belgique)</span>
+                                    <p class="qualification__summary"></p>
+                                </div>
+                            </li>
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <li class="qualification__data">
+                                <div class="qualification__calendar">
+                                    <i class="uil-calendar-alt"></i>
+                                    Sept 2016 - juin 2017
+                                </div>
+                                <div class="qualification__marker">
+                                    <span class="qualification__point"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div class="qualification__text">
+                                    <h3 class="qualification__title">Développeuse web</h3>
+                                    <span class="qualification__subtitle">Wild Code School</span>
+                                    <p class="qualification__summary">
+                                        Réalisation de deux projets-clients dans le cadre de ma formation à la Wild Code School.
+                                        L'un en 6 semaines l'autre en 8 semaines. L'occasion d'appliquer mes connaissances pour
+                                        le compte d'acteurs locaux.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
 
-                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                    <ul class="qualification__content" aria-hidden="true" id="work">
-                        <!--==================== QUALIFICATION 1 ====================-->
-                        <li class="qualification__data">
-                            <div class="qualification__calendar">
-                                <i class="uil-calendar-alt"></i>
-                                Sept 2006 - août 2016
-                            </div>
-                            <div class="qualification__marker">
-                                <span class="qualification__point"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                            <div class="qualification__text">
-                                <h3 class="qualification__title">Technicienne de laboratoire</h3>
-                                <span class="qualification__subtitle"></span>
-                                <p class="qualification__summary">
-                                    J'étais principalement chargée de l'entretien, la calibration, les contrôles
-                                    et la gestion des pannes sur différents automates d'analyse. Des analyses médicales des
-                                    échantillons et de la validation technique des résultats. J'ai également préparé des
-                                    chimiothérapies, tenu à jour des dossiers aux essais cliniques ou encore testé la
-                                    qualité microbiologique de l'eau et de médicaments.
-                                </p>
-                            </div>
-                        </li>
-                        <!--==================== QUALIFICATION 2 ====================-->
-                        <li class="qualification__data">
-                            <div class="qualification__calendar">
-                                <i class="uil-calendar-alt"></i>
-                                Fév 2017 - juil 2017
-                            </div>
-                            <div class="qualification__marker">
-                                <span class="qualification__point"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                            <div class="qualification__text">
-                                <h3 class="qualification__title">Stagiaire</h3>
-                                <span class="qualification__subtitle">Filver</span>
-                                <p class="qualification__summary">
-                                    Stage de 6 mois dans une agence web, j'ai participé au développement d'une
-                                    application en interne. J'ai surtout mis en pratique mes connaissances en frontend. J'ai aussi animé
-                                    des ateliers d'initiation au code pour les enfants de 7 à 11 ans.
-                                </p>
-                            </div>
-                        </li>
-                        <!--==================== QUALIFICATION 3 ====================-->
-                        <li class="qualification__data">
-                            <div class="qualification__calendar">
-                                <i class="uil-calendar-alt"></i>
-                                Fév 2018 - juin 2018
-                            </div>
-                            <div class="qualification__marker">
-                                <span class="qualification__point"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                            <div class="qualification__text">
-                                <h3 class="qualification__title">Développeuse Rails</h3>
-                                <span class="qualification__subtitle">Hexagonal Consulting et jrnl</span>
-                                <p class="qualification__summary">Chez Hexagonal Consulting, développement d'une application avec une interface
-                                    admnistrateur et permettant de s'inscrire à des évènements, de noter les participants et
-                                    de récupérer les notes dans un tableau à double entrées.<br></br>
-                                    Pour l'application jrnal, participation à la création du tableau de bord des
-                                    administrateurs, à l'invitation d'utilisateurs et à la gestion des statuts d'un article.
-                                </p>
-                            </div>
-                        </li>
-                        <!--==================== QUALIFICATION 4 ====================-->
-                        <li class="qualification__data">
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                Sep 2018 - oct 2018
-                            </div>
-                            <div class="qualification__marker">
-                                <span class="qualification__point"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                            <div class="qualification__text">
-                                <h3 class="qualification__title">Intégratrice WordPress</h3>
-                                <span class="qualification__subtitle">Happy Dev</span>
-                                <p class="qualification__summary">
-                                    Accompagnée par un développeur senior, j'ai été chargée d'intégrer les pages
-                                    d'un WordPress pour une agence de motion design.
-                                </p>
-                            </div>
-                        </li>
-                        <!--==================== QUALIFICATION 5 ====================-->
-                        <li class="qualification__data">
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                Déc 2018 - aujourd'hui
-                            </div>
-                            <div class="qualification__marker">
-                                <span class="qualification__point"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                            <div class="qualification__text">
-                                <h3 class="qualification__title">Intégratrice</h3>
-                                <span class="qualification__subtitle">Startin'Blox</span>
-                                <p class="qualification__summary">Développement d'une application pour faciliter le travail entre freelances,
-                                    associations, etc.
-                                    J'ai intégré les maquettes fournies par la graphiste et affiché des données dynamiques.
-                                    La structure HTML est générée par Startin'blox et j'utilise les composants développés
-                                    par l'équipe de développeurs pour les adapter graphiquement.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <ul class="qualification__content" aria-hidden="true" id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <li class="qualification__data">
+                                <div class="qualification__calendar">
+                                    <i class="uil-calendar-alt"></i>
+                                    Sept 2006 - août 2016
+                                </div>
+                                <div class="qualification__marker">
+                                    <span class="qualification__point"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div class="qualification__text">
+                                    <h3 class="qualification__title">Technicienne de laboratoire</h3>
+                                    <span class="qualification__subtitle"></span>
+                                    <p class="qualification__summary">
+                                        J'étais principalement chargée de l'entretien, la calibration, les contrôles
+                                        et la gestion des pannes sur différents automates d'analyse. Des analyses médicales des
+                                        échantillons et de la validation technique des résultats. J'ai également préparé des
+                                        chimiothérapies, tenu à jour des dossiers aux essais cliniques ou encore testé la
+                                        qualité microbiologique de l'eau et de médicaments.
+                                    </p>
+                                </div>
+                            </li>
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <li class="qualification__data">
+                                <div class="qualification__calendar">
+                                    <i class="uil-calendar-alt"></i>
+                                    Fév 2017 - juil 2017
+                                </div>
+                                <div class="qualification__marker">
+                                    <span class="qualification__point"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div class="qualification__text">
+                                    <h3 class="qualification__title">Stagiaire</h3>
+                                    <span class="qualification__subtitle">Filver</span>
+                                    <p class="qualification__summary">
+                                        Stage de 6 mois dans une agence web, j'ai participé au développement d'une
+                                        application en interne. J'ai surtout mis en pratique mes connaissances en frontend. J'ai aussi animé
+                                        des ateliers d'initiation au code pour les enfants de 7 à 11 ans.
+                                    </p>
+                                </div>
+                            </li>
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <li class="qualification__data">
+                                <div class="qualification__calendar">
+                                    <i class="uil-calendar-alt"></i>
+                                    Fév 2018 - juin 2018
+                                </div>
+                                <div class="qualification__marker">
+                                    <span class="qualification__point"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div class="qualification__text">
+                                    <h3 class="qualification__title">Développeuse Rails</h3>
+                                    <span class="qualification__subtitle">Hexagonal Consulting et jrnl</span>
+                                    <p class="qualification__summary">Chez Hexagonal Consulting, développement d'une application avec une interface
+                                        admnistrateur et permettant de s'inscrire à des évènements, de noter les participants et
+                                        de récupérer les notes dans un tableau à double entrées.<br></br>
+                                        Pour l'application jrnal, participation à la création du tableau de bord des
+                                        administrateurs, à l'invitation d'utilisateurs et à la gestion des statuts d'un article.
+                                    </p>
+                                </div>
+                            </li>
+                            <!--==================== QUALIFICATION 4 ====================-->
+                            <li class="qualification__data">
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Sep 2018 - oct 2018
+                                </div>
+                                <div class="qualification__marker">
+                                    <span class="qualification__point"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div class="qualification__text">
+                                    <h3 class="qualification__title">Intégratrice WordPress</h3>
+                                    <span class="qualification__subtitle">Happy Dev</span>
+                                    <p class="qualification__summary">
+                                        Accompagnée par un développeur senior, j'ai été chargée d'intégrer les pages
+                                        d'un WordPress pour une agence de motion design.
+                                    </p>
+                                </div>
+                            </li>
+                            <!--==================== QUALIFICATION 5 ====================-->
+                            <li class="qualification__data">
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Déc 2018 - aujourd'hui
+                                </div>
+                                <div class="qualification__marker">
+                                    <span class="qualification__point"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div class="qualification__text">
+                                    <h3 class="qualification__title">Intégratrice</h3>
+                                    <span class="qualification__subtitle">Startin'Blox</span>
+                                    <p class="qualification__summary">Développement d'une application pour faciliter le travail entre freelances,
+                                        associations, etc.
+                                        J'ai intégré les maquettes fournies par la graphiste et affiché des données dynamiques.
+                                        La structure HTML est générée par Startin'blox et j'utilise les composants développés
+                                        par l'équipe de développeurs pour les adapter graphiquement.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -358,7 +360,7 @@
                 <span class="section__subtitle">Mes réalisations</span>
 
                 <div class="portfolio__container container grid">
-                    
+
                     <!--==================== IMAGES ====================-->
                     <div class="portfolio__images">
                         <input type="radio" name="image" id="image1" checked>
@@ -514,6 +516,27 @@
         </section>
 
         <!--==================== CONTACT ME ====================-->
+        <?php
+            $message_sent = false;
+            $request_method = strtoupper($_SERVER['REQUEST_METHOD']);
+
+            if($request_method === 'POST') {
+                $clean_name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+                $clean_email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+                $clean_message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+
+                $to = "morin.gaelle@gmail.com";
+                $body = "";
+
+                $body .= "From: ".$clean_name. "\r\n";
+                $body .= "Email: ".$clean_email. "\r\n";
+                $body .= "Message: ".$clean_message. "\r\n";
+
+                mail($to, "Bonjour", $body);
+                $message_sent = true;
+            }
+        ?>
+
         <section class="contact section center" id="contact">
             <div>
                 <h2 class="section__title">Un projet ?</h2>
@@ -540,29 +563,33 @@
                         </div>
                     </dl>
 
-                    <form action="" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="name" class="contact__label">Votre nom</label>
-                                <input type="text" name="name" id="name" class="contact__input" required>
+                    <?php if($message_sent): ?>
+                        <p>Merci !</p>
+                    <?php elseif(!$message_sent): ?>
+                        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST" class="contact__form grid">
+                            <div class="contact__inputs grid">
+                                <div class="contact__content">
+                                    <label for="name" class="contact__label">Votre nom</label>
+                                    <input type="text" name="name" id="name" class="contact__input" required>
+                                </div>
+                                <div class="contact__content">
+                                    <label for="email" class="contact__label">Votre email</label>
+                                    <input type="email" name="email" id="email" class="contact__input" required>
+                                </div>
                             </div>
                             <div class="contact__content">
-                                <label for="email" class="contact__label">Votre email</label>
-                                <input type="email" name="email" id="email" class="contact__input" required>
+                                <label for="message" class="contact__label">Votre message</label>
+                                <textarea name="message" id="message" cols="0" rows="7" class="contact__input" required></textarea>
                             </div>
-                        </div>
-                        <div class="contact__content">
-                            <label for="message" class="contact__label">Votre message</label>
-                            <textarea name="message" id="message" cols="0" rows="7" class="contact__input" required></textarea>
-                        </div>
 
-                        <div>
-                            <button type="submit" class="button">
-                                Envoyer
-                                <i class="uil-message button__icon"></i>
-                            </button>
-                        </div>
-                    </form>
+                            <div>
+                                <button type="submit" class="button">
+                                    Envoyer
+                                    <i class="uil-message button__icon"></i>
+                                </button>
+                            </div>
+                        </form>
+                    <?php endif; ?>
                 </div>
             </div>
         </section>
@@ -612,7 +639,7 @@
                     Icons by
                     <a href="https://iconscout.com/contributors/unicons">Unicons Font</a>,
                     <a href="https://iconscout.com/contributors/jagathish">Jagathish</a> and
-                    <a href="https://iconscout.com/contributors/icon-54">Icon 54</a> on 
+                    <a href="https://iconscout.com/contributors/icon-54">Icon 54</a> on
                     <a href="https://iconscout.com">Iconscout</a>
                 </small>
             </div>
@@ -627,4 +654,5 @@
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
