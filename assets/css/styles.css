@@ -865,6 +865,12 @@ button {
     color: var(--first-color);
 }
 
+.contact__sent {
+    justify-content: center;
+    text-align: center;
+    line-height: 1.4em;
+}
+
 .contact__content {
     background-color: var(--input-color);
     border-radius: .5rem;

@@ -589,8 +589,13 @@
                     </dl>
 
                     <?php if ($message_sent) : ?>
-                        <p>Merci !</p>
-                    <?php elseif (!$message_sent) : ?>
+                        <div class="content__sent grid">
+                            <p>
+                                Merci ! <br>
+                                Votre message a été envoyé.
+                            </p>
+                        </div>
+                    <?php elseif (!$message_sent || count($errors) === 0) : ?>
                         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST" class="contact__form grid">
                             <div class="contact__inputs grid">
                                 <div class="contact__content">
