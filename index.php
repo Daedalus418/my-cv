@@ -555,7 +555,6 @@
 
                 if (mail($to, "Bonjour !", $body)) {
                     $message_sent = true;
-                    print_r($body);
                 } else {
                     echo "Mailer Error: " . error_get_last();
                 }
