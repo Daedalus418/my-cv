@@ -517,50 +517,50 @@
 
         <!--==================== CONTACT ME ====================-->
         <?php
-            $message_sent = false;
-            $request_method = strtoupper($_SERVER['REQUEST_METHOD']);
-            const FIELD_REQUIRED = "Champs obligatoire";
-            const FIELD_INVALID = "Format de mail non valide";
+        $message_sent = false;
+        $request_method = strtoupper($_SERVER['REQUEST_METHOD']);
+        const FIELD_REQUIRED = "Champs obligatoire";
+        const FIELD_INVALID = "Format de mail non valide";
 
-            if ($request_method === 'POST') {
-                $fields = ['name', 'email', 'message'];
-                $errors = [];
-                $values = [];
-                $clean_name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-                $clean_email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-                $clean_message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+        if ($request_method === 'POST') {
+            $fields = ['name', 'email', 'message'];
+            $errors = [];
+            $values = [];
+            $clean_name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+            $clean_email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+            $clean_message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
 
-                if (!filter_var($clean_email, FILTER_VALIDATE_EMAIL)) {
-                    $errors['email'] = FIELD_INVALID;
-                }
+            if (!filter_var($clean_email, FILTER_VALIDATE_EMAIL)) {
+                $errors['email'] = FIELD_INVALID;
+            }
 
-                foreach ($fields as $field) {
-                    if (empty($_POST[$field])) {
-                        $errors[$field] = FIELD_REQUIRED;
-                    } else {
-                        $values[$field] = $_POST[$field];
-                    }
-                }
-
-                if (filter_var($clean_email, FILTER_VALIDATE_EMAIL) && count($errors) === 0) {
-                    $values['email'] = trim($clean_email);
-                    $values['name'] = trim($clean_name);
-                    $values['message'] = trim($clean_message);
-
-                    $to = "morin.gaelle@gmail.com";
-                    $body = "";
-                    $body .= "From: " . $values['name'] . "\r\n";
-                    $body .= "Email: " . $values['email'] . "\r\n";
-                    $body .= "Message: " . $values['message'] . "\r\n";
-
-                    if (mail($to, "Bonjour !", $body)) {
-                        $message_sent = true;
-                        print_r($body);
-                    } else {
-                        echo "Mailer Error: " . error_get_last();
-                    }
+            foreach ($fields as $field) {
+                if (empty($_POST[$field])) {
+                    $errors[$field] = FIELD_REQUIRED;
+                } else {
+                    $values[$field] = $_POST[$field];
                 }
             }
+
+            if (filter_var($clean_email, FILTER_VALIDATE_EMAIL) && count($errors) === 0) {
+                $values['email'] = trim($clean_email);
+                $values['name'] = trim($clean_name);
+                $values['message'] = trim($clean_message);
+
+                $to = "morin.gaelle@gmail.com";
+                $body = "";
+                $body .= "From: " . $values['name'] . "\r\n";
+                $body .= "Email: " . $values['email'] . "\r\n";
+                $body .= "Message: " . $values['message'] . "\r\n";
+
+                if (mail($to, "Bonjour !", $body)) {
+                    $message_sent = true;
+                    print_r($body);
+                } else {
+                    echo "Mailer Error: " . error_get_last();
+                }
+            }
+        }
         ?>
 
         <section class="contact section center" id="contact">
@@ -605,7 +605,9 @@
                             </div>
                             <div class="contact__content">
                                 <label for="message" class="contact__label">Votre message</label>
-                                <textarea name="message" id="message" cols="0" rows="7" class="contact__input" required></textarea>
+                                <textarea name="message" id="message" cols="0" rows="7" class="contact__input <?php echo isset($errors['message']) ? 'form-invalid' : '' ?>"><?php
+                                    echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8');
+                                ?></textarea>
                             </div>
 
                             <div>
