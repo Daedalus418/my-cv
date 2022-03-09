@@ -598,16 +598,16 @@
                     <?php elseif (!$message_sent || count($errors) === 0) : ?>
                         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST" class="contact__form grid">
                             <div class="contact__inputs grid">
-                                <div class="contact__content">
+                                <div class="contact__content <?php echo isset($errors['name']) ? 'form-invalid' : '' ?>">
                                     <label for="name" class="contact__label">Votre nom</label>
                                     <input type="text" name="name" id="name" class="contact__input" required>
                                 </div>
-                                <div class="contact__content">
+                                <div class="contact__content <?php echo isset($errors['name']) ? 'form-invalid' : '' ?>">
                                     <label for="email" class="contact__label">Votre email</label>
                                     <input type="email" name="email" id="email" class="contact__input" required>
                                 </div>
                             </div>
-                            <div class="contact__content">
+                            <div class="contact__content <?php echo isset($errors['name']) ? 'form-invalid' : '' ?>">
                                 <label for="message" class="contact__label">Votre message</label>
                                 <textarea name="message" id="message" cols="0" rows="7" class="contact__input <?php echo isset($errors['message']) ? 'form-invalid' : '' ?>"><?php
                                     echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8');
