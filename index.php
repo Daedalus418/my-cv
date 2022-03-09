@@ -596,7 +596,7 @@
                             </p>
                         </div>
                     <?php elseif (!$message_sent || count($errors) === 0) : ?>
-                        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST" class="contact__form grid">
+                        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>#contact" method="POST" class="contact__form grid">
                             <div class="contact__inputs grid">
                                 <div class="contact__content <?php echo isset($errors['name']) ? 'form-invalid' : '' ?>">
                                     <label for="name" class="contact__label">Votre nom</label>
