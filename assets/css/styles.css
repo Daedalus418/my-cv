@@ -720,7 +720,6 @@ button {
 
 .portfolio__description {
     display: none;
-    line-height: 1.2em;
 }
 
 .portfolio__content.portfolio__active {
