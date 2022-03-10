@@ -1206,7 +1206,7 @@ button {
     .portfolio__container {
         grid-template-columns: 50% 1fr;
     }
-    .portolio__images {
+    .portfolio__images {
         align-self: center;
         margin-bottom: 0;
     }
