@@ -127,10 +127,9 @@
 
                 <div class="about__container container">
                     <p class="about__text">
-                        Développeuse junior avec 3 ans d'expérience dans le développement de sites et d'applications web en utilisant HTML5,
-                        CSS3, JavaScript et des frameworks CSS.
-                        J'identifie et corrige les problèmes durant les tests ou les retours des utilisateurs, sous la guidance d'un développeur
-                        senior.
+                        Technicienne de laboratoire pendant 10 ans, je suis maintenant développeuse junior avec 3 ans d'expérience dans le développement de sites et d'applications web en utilisant HTML5, CSS3, JavaScript et des frameworks CSS (Bootstrap, Foundation, Tailwind). <br>
+                        J'identifie et corrige les problèmes durant les tests ou les retours des utilisateurs. <br>
+                        J'ai déjà pu intervenir sur du NodeJS, PHP et Ruby on Rails. Je porte une grande attention à la qualité du code et au responsive.
                     </p>
                 </div>
             </div>
