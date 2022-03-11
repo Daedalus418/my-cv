@@ -74,7 +74,7 @@
                             <a href="https://www.linkedin.com/in/gaelle-morin/" target="_blank" class="home__social-icon">
                                 <i class="uil-linkedin-alt"></i>
                             </a>
-                            <a href="#" target="_blank" class="home__social-icon">
+                            <a href="https://git.startinblox.com/gaelleM" target="_blank" class="home__social-icon">
                                 <i class="uil-gitlab"></i>
                             </a>
                             <a href="https://github.com/daedalus418" target="_blank" class="home__social-icon">
@@ -566,8 +566,8 @@
                             <div class="contact__content <?php echo isset($errors['name']) ? 'form-invalid' : '' ?>">
                                 <label for="message" class="contact__label">Votre message <em>(obligatoire)</em></label>
                                 <textarea name="message" id="message" cols="0" rows="7" class="contact__input <?php echo isset($errors['message']) ? 'form-invalid' : '' ?>"><?php
-                                    echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8');
-                                ?></textarea>
+                                                                                                                                                                                echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8');
+                                                                                                                                                                                ?></textarea>
                             </div>
 
                             <div>
@@ -611,7 +611,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" target="_blank" class="footer__social">
+                        <a href="https://git.startinblox.com/gaelleM" target="_blank" class="footer__social">
                             <i class="uil-gitlab"></i>
                         </a>
                     </li>
