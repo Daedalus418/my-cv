@@ -29,7 +29,7 @@
             $values['name'] = trim($clean_name);
             $values['message'] = trim($clean_message);
 
-            $to = "morin.gaelle@gmail.com";
+            $to = "hello@gaellemorin.fr";
             $body = "";
             $body .= "From: " . $values['name'] . "\r\n";
             $body .= "Email: " . $values['email'] . "\r\n";

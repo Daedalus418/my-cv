@@ -411,8 +411,8 @@
                                 </div>
                                 <p class="portfolio__description">
                                     Création d'un site vitrine et partiellement administrable pour une Maison d'Assistantes Maternelles appelée
-                                    la MAM Aux Trésors. Elle souhaitaient mettre en évidence l'équipe et présenter brièvement leur établissement et les
-                                    activités proposées. Elles peuvent éditer les parties "Partenaires" et ... Grâce à ce projet, nous avons mis
+                                    la MAM Aux Trésors. Elle souhaitaient mettre en évidence l'équipe, présenter brièvement leur établissement et les
+                                    activités proposées. Elles peuvent éditer les parties "Partenaires" et "Actualités" Grâce à ce projet, nous avons mis
                                     en application nos connaissances fraîchement acquises sur le framework Materialize.
                                 </p>
                             </div>
@@ -434,9 +434,9 @@
                                     <span class="portfolio__tag">Materialize</span>
                                 </div>
                                 <p class="portfolio__description">
-                                    Sous la houlette de l'Union Nationale de l'Information Jeunesse (UNIJ), le Bureau de l'Information Jeunesse
-                                    (BIJ) souhaitait une application bureau et web permettant à n'importe quel forma.teur.trice de leur Bureau
-                                    d'accéder, online et offline, à ses cours. L'intérêt était de transposer leur support de formation dans une application
+                                    Sous la direction de l'Union Nationale de l'Information Jeunesse (UNIJ), le Bureau de l'Information Jeunesse
+                                    (BIJ) souhaitait une application bureau et web permettant à n'importe quel formateur ou formatrice de leur Bureau
+                                    d'accéder, en ligne et hors ligne, à ses cours. L'intérêt était de transposer leur support de formation dans une application
                                     afin qu'elle soit téléchargeable et pouvoir l'utiliser même là où il n'y a pas Internet afin d'éviter le
                                     transport de documents physiques pouvant être lourds. Il fallait également une partie admin afin de pouvoir
                                     créer/supprimer des comptes utilisateurs.
@@ -500,12 +500,10 @@
                                     <span class="portfolio__tag">Startin'blox</span>
                                 </div>
                                 <p class="portfolio__description">
-                                    Cette application permet aux utilisateurs, via un mail envoyé par l'administrateur, de se connecter via leur
-                                    compte Google.
-                                    Ils peuvent ensuite créer un évènement et voir les évènements passés et ceux auxquels ils peuvent s'
-                                    inscrire grâce à un code couleur.
-                                    Après la fin de l'évènement, les participants peuvent se noter entre eux et ajouter un commentaire. Chaque
-                                    note est symbolisée par une couleur.
+                                    Basée sur la technologie open source développée par Startin'Blox, cette application vise à aider et gérer la collaboration entre pairs.
+                                    Elle implémente les standards SoLiD et ceux des Web components.
+                                    J'ai été chargée de la création et de l'intégration de différents modules (chat, annuaire des membres, création/édition de membres, groupes et projets)
+                                    avec un développeur senior.
                                 </p>
                             </div>
                         </label>
@@ -533,7 +531,7 @@
                         <div class="contact__information">
                             <i class="uil-envelope contact__icon"></i>
                             <dt class="contact__title">Email</dt>
-                            <dd class="contact__subtitle">gmorin.dev@gmail.com</dd>
+                            <dd class="contact__subtitle">hello@gaellemorin.fr</dd>
                         </div>
 
                         <div class="contact__information">
@@ -564,9 +562,9 @@
                             </div>
                             <div class="contact__content <?php echo isset($errors['name']) ? 'form-invalid' : '' ?>">
                                 <label for="message" class="contact__label">Votre message <em>(obligatoire)</em></label>
-                                <textarea name="message" id="message" cols="0" rows="7" class="contact__input <?php echo isset($errors['message']) ? 'form-invalid' : '' ?>"><?php
-                                                                                                                                                                                echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8');
-                                                                                                                                                                                ?></textarea>
+                                <textarea name="message" id="message" cols="0" rows="7" class="contact__input <?php echo isset($errors['message']) ? 'form-invalid' : '' ?>" required><?php
+                                    echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8');
+                                ?></textarea>
                             </div>
 
                             <div>
