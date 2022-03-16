@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--==================== CSS ====================-->
-    <link rel="preload" as="font" href="assets/css/styles.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="assets/css/styles.css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </noscript>
 
     <title>CV</title>
 </head>
@@ -563,8 +566,8 @@
                             <div class="contact__content <?php echo isset($errors['name']) ? 'form-invalid' : '' ?>">
                                 <label for="message" class="contact__label">Votre message <em>(obligatoire)</em></label>
                                 <textarea name="message" id="message" cols="0" rows="7" class="contact__input <?php echo isset($errors['message']) ? 'form-invalid' : '' ?>" required><?php
-                                    echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8');
-                                ?></textarea>
+                                                                                                                                                                                        echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8');
+                                                                                                                                                                                        ?></textarea>
                             </div>
 
                             <div>
