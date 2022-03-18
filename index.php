@@ -11,7 +11,9 @@
         <link rel="stylesheet" href="assets/css/styles.css">
     </noscript>
 
-    <title>CV</title>
+    <title>Gaëlle Morin - Développeuse web</title>
+    <meta name="description" content="Développeuse frontend freelance basée à Bourges.">
+    <meta name="keywords" content="intégrateur, developpeur, front-end, html, css, javascript, js, freelance, indépendant, télétravail, bourges, cher">
 </head>
 
 <body class="scrollbar-nav">
@@ -86,19 +88,8 @@
                         </div>
 
                         <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                                </g>
+                            <svg class="home__blob" viewBox="58 90 320 320" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path d="M331,351Q240,462,120,351Q0,240,120,147.5Q240,55,331,147.5Q422,240,331,351Z" />
                             </svg>
                         </div>
 
